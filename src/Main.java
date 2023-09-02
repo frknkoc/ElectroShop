@@ -21,16 +21,16 @@ public class Main {
             }
             switch (selectCase){
                 case 1:
-                    System.out.println("\nNoteBook İşlemleri yapmayı tercih ettiniz\n");
+                    electroShop.addNotebook();
+                    electroShop.showNotebook();
+                    electroShop.notebookAddRemove();
                     break;
-
                 case 2:
                     electroShop.addPhone();
                     electroShop.showPhone();
                     electroShop.phoneAddRemove();
                     break;
                 case 3:
-
                     electroShop.addMark();
                     electroShop.showMark();
                     electroShop.addNewMark();
